@@ -1,0 +1,9 @@
+.DS_Store
+_site/
+.jekyll-metadata
+Gemfile.lock
+node_modules
+.sass-cache
+_config.dev.yml
+assets/
+.env/
