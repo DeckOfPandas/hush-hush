@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors                 = ["Name"]
 
   spec.summary                 = %q{Summary.}
-  spec.homepage                = "#"
+  spec.homepage                = ""
   spec.license                 = ""
 
   spec.metadata["plugin_type"] = "theme"
