@@ -1,0 +1,23 @@
+#- title: "nav"
+#  href: "/"
+
+- title: "Example"
+  href: "/#index_example"
+
+- title: "Example contrast"
+  href: "/#index_example_dark"
+
+- title: "Section"
+  href: "/#index_example"
+
+- title: "Section"
+  href: "/#index_example"
+
+- title: "Section"
+  href: "/#index_example"
+
+- title: "Section"
+  href: "/#index_example"
+
+- title: "Section"
+  href: "/#index_example"

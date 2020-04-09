@@ -1,0 +1,51 @@
+#- title: "team"
+
+- name: "Diana Patient"
+  role: "Founder & Creative Director"
+  photo: "diana_patient.jpg"
+  email: toomuchofaperson@gmail.com
+
+- name: "Molly Jo Hirons"
+  role: "Social Media Manager"
+  photo: "molly_jo_hirons.jpg"
+  email: toomuchofaperson@gmail.com
+
+- name: "Noura Chaillon"
+  role: "Launch Event Coordinator"
+  photo: "noura_chaillon.jpg"
+  email: noura.chaillon@gmail.com
+
+- name: "Nina Rosenberger"
+  role: "Artist Liaison"
+  photo: "nina_rosenberger.jpg"
+  email: nina@vocalsounds.de
+          
+- name: "Sunaina Dasgupta"
+  role: "Strategy & Operations Director"
+  photo: "sunaina_dasgupta.jpg"
+
+- name: "Amanda Robinson"
+  role: "Story Seeker"
+  photo: "amanda_robinson.jpg"
+
+- name: "Junia Bashiru"
+  role: "Social Media Video Editor"
+  photo: "junia_bashiru.jpg"
+
+- name: "Kyle Pickford"
+  role: "Sound"
+  photo: "kyle_pickford.jpg"
+  
+- name: "Prerna Winter"
+  role: "Video Content editor"
+  photo: prerna_winter.jpg"
+
+- name: "Emma Lock"
+  role: "Story Seeker"
+  photo: "emma_lock.jpg"
+
+- name: "Helen Jackson"
+  role: "Web Developer"
+  photo: "helen_jackson.jpg"
+  email: helen@deckofpandas.com  
+
