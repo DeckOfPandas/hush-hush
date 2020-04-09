@@ -1,29 +1,25 @@
 {
-  "name": "too-much-of-a-person",
+  "name": "Hello World",
   "version": "1.0.0",
-  "description": "Too Much of a Person",
+  "description": "Hello World!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeckOfPandas/too-much-of-a-person.git"
+    "url": "#"
   },
   "keywords": [
-    "toomuch",
-    "feminism",
-    "everydayfeminism",
-    "women",
-    "strong",
-    "power"
+    "word1",
+    "word2"
   ],
-  "author": "Helen Jackson, @DeckOfPandas",
+  "author": "Name, @Handle",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/DeckOfPandas/too-much-of-a-person/issues"
+    "url": "#"
   },
-  "homepage": "https://github.com/DeckOfPandas/too-much-of-a-person#readme",
+  "homepage": "#",
   "devDependencies": {
     "autoprefixer": "^8.6.2",
     "browser-sync": "^2.26.3",
