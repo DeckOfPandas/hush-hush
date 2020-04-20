@@ -29,6 +29,14 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 footer_scripts:
+  - https://use.fontawesome.com/releases/v5.0.13/css/all.css
+  - https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css
+  - https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css
+  - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css
+  - https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css
+  - /assets/styles/main.css
   - https://code.jquery.com/jquery-3.3.1.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js
   - https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js
