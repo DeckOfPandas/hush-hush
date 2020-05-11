@@ -1,0 +1,43 @@
+<h1>Ingredients</h1>
+
+<div>
+	{% for ingredient in page.ingredients %}
+		<p>{{ ingredient.amounts[0].amount }} {{ ingredient.amounts[0].unit }} {{ ingredient.name }} {{ ingredient.type }}
+		</p>
+	{% endfor %}
+	<p>Garnish:
+		{% if page.garnish %}
+			{% for garnish in page.garnish %}
+				{% if garnish.amount %}
+					{{ garnish.amount }} 
+				{% endif %}
+				{{ garnish.name }}
+			{% endfor %}
+		{% else %}
+			none
+		{% endif %}
+	</p>
+</div>
+
+<h1>Method</h1>
+
+<div>
+	{% for step in page.steps %}
+		<p>{{ step.step }}
+		</p>
+	{% endfor %}
+</div>
+
+<h1>Notes</h1>
+
+<div>
+{% for ingredient in page.ingredients %}
+	{% if ingredient.substitutions %}
+		{% for substitution in ingredient.substitutions %}
+			{{ ingredient.amounts[0].amount }} {{ ingredient.amounts[0].unit }} {{ ingredient.name }} {{ ingredient.type }} 
+			can be substituted with 
+			{{ substitution.amounts[0].amount }} {{ substitution.amounts[0].unit }} {{ substitution.name }} {{ substitution.type }}
+		{% endfor %}
+	{% endif %}
+{% endfor%}
+</div>

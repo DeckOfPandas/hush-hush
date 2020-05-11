@@ -1,68 +1,52 @@
 ---
-title: "Post: Notice"
+title: "Ginger Snap"
 categories:
-  - Blog
+  - recipe
 tags:
-  - Post Formats
-  - notice
+  - tag-1
+  - tag-2
+layout: recipe
+header:
+  image: /assets/images/headers/page-header-image.png
+ingredients:
+  - ingredient:
+    type: cognac
+    name: Pierre Ferrand Ambre
+    amounts:
+      - amount: 1.5
+        unit: oz
+    processing:
+      - none
+    substitutions:
+      - substitution:
+        name: Chenet
+        type: cognac
+        amounts:
+          - amount: 1.5
+            unit: oz           
+  - ingredient:
+    type: rhum agricole
+    name: Smith and Cross
+    amounts:
+      - amount: 1.5
+        unit: oz
+    processing:
+      - none
+garnish:
+  - name: lemon twist
+    amount: 1
+glass:
+  - name: coupe    
+steps:
+  - step:
+      Shake all with ice
+    notes:
+      - Some people like green
+      - Some people like red
+  - step:
+      Strain into a coupe
+  - step:
+      Garnish with the lemon twist
 ---
 
-A notice displays information that explains nearby content. Often used to call attention to a particular detail.
-
-When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
-
-**Changes in Service:** We just updated our [privacy policy](#) here to better service our customers. We recommend reviewing the changes.
-{: .notice}
-
-**Primary Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. [Praesent libero](#). Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--primary}
-
-**Info Notice:** Lorem ipsum dolor sit amet, [consectetur adipiscing elit](#). Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--info}
-
-**Warning Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. [Integer nec odio](#). Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--warning}
-
-**Danger Notice:** Lorem ipsum dolor sit amet, [consectetur adipiscing](#) elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--danger}
-
-**Success Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at [nibh elementum](#) imperdiet.
-{: .notice--success}
-
-Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with `markdownify` is a good way to go.
-
-```html
-{% raw %}{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}{% endraw %}
-
-<div class="notice">{% raw %}{{ notice-2 | markdownify }}{% endraw %}</div>
-```
-
-{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-<div class="notice">
-  {{ notice-2 | markdownify }}
-</div>
-
-Or you could skip the capture and stick with straight HTML.
-
-```html
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>
-```
-
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>
+ A lovely snappy ginger thing.
